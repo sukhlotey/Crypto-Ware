@@ -1,0 +1,49 @@
+.btns button{
+height: 2rem;
+background-color: orange;
+border: none;
+margin-left: 30px;
+width: 5rem;
+border-radius: 10px;
+margin-top: 4rem;
+
+&:hover{
+    cursor: pointer;
+}
+}
+
+.search-bar input{
+    height: 2rem;
+    width: 20rem;
+    position: fixed;
+    top: 1%;
+    left: 35%;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: grey;
+}
+.btns{
+    
+    margin-top: 100px;
+}
+.ex-cards img {
+    transition: transform 0.5s ease; 
+  }
+  
+  .ex-cards:hover img {
+    transform: rotate(360deg); 
+  }
+  
+    
+@media only screen and (max-width: 600px) {
+.search-bar input{
+    position: fixed;
+    top: 10%;
+    left: 7%;
+}
+.btns{
+    margin-left: 10px;
+}
+}
